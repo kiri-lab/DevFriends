@@ -1,0 +1,9 @@
+#!/bin/sh
+rand=$(($RANDOM % 4));
+case $rand in
+    0 ) echo "ええんやで" ;;
+    1 ) echo "どういたしまして" ;;
+    2 ) echo "またいつでも" ;;
+    3 ) echo "こちらこそ" ;;
+    * ) echo "マジ卍" ;;
+esac
